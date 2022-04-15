@@ -1,0 +1,122 @@
+.App {
+  text-align: center;
+  position: relative;
+}
+#ccc{
+  display: none;
+}
+.container{
+  position: relative;
+}
+
+#detail{
+  width: 15rem;
+}
+#detail .title{
+  background-color: #9797c6;
+  text-align: center;
+}
+
+#detail .content{
+  
+  text-align: center;
+  margin: 5px 10px;
+  overflow-y:scroll;
+   overflow-x:hidden; 
+   max-height:400px;
+}
+#move{
+  width: 15rem;
+}
+#move .title{
+  background-color: #9797c6;
+  text-align: center;
+}
+#move .content{
+  margin: 5px 10px;
+  overflow-y:scroll;
+   overflow-x:hidden; 
+   height:400px;
+}
+
+#stats{
+  width: 15rem;
+}
+#stats .title{
+  background-color: #9797c6;
+  text-align: center;
+}
+#stats .content{
+  margin: 5px 10px;
+  overflow-y:scroll;
+   overflow-x:hidden; 
+   height:200px;
+}
+
+#main{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+
+
+.paginationBttns {
+  width: 80%;
+  height: 40px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.paginationBttns a {
+  padding: 10px;
+  margin: 8px;
+  border-radius: 5px;
+  border: 1px solid #2b2eff;
+  color: #2b2eff;
+  cursor: pointer;
+}
+
+.paginationBttns a:hover {
+  color: white;
+  background-color: #2b2eff;
+}
+
+.paginationActive a {
+  color: white;
+  background-color: #2b2eff;
+}
+
+.paginationDisabled a {
+  color: grey;
+  background-color: grey;
+}
+
+#page{
+  width: 100%;
+  position: absolute;
+  margin: 30px 0px;
+  display: flex;
+  justify-content: center;
+
+}
+
+#inp{
+  width: 50%;
+  padding:10px ;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.nav{
+  display: flex;
+  justify-content: center;
+}
+
+p{
+  text-align: center;
+  font-family:cursive;
+}
