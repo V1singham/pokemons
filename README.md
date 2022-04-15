@@ -1,4 +1,5 @@
 This is a pokemon app build with react js and css the api used here is is pokeapi which give information about pokemons 
+https://pokemonvks.netlify.app/
 
 To Install this App Go to Termainal Install Node js if its is intalled then clone this project using git clone Then go into the directory and run "npm install" on the terminal It will install all the packeges then run npm start to run the project
 
