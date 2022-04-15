@@ -106,6 +106,10 @@ function App() {
           activeClassName={'paginationActive'}
         />
       </div>
+
+      <div id="footer">
+        <p>Developed by Vikash kumar singh</p>
+      </div>
     </div>
   );
 }
