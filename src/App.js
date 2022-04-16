@@ -16,11 +16,13 @@ function App() {
   const [Pokedetails, setPokedetails] = useState();
   const [isopen, setisopen] = useState(false);
   const [pageNumber, setPageNumber] = useState(0);
+  const [isloading, setIsloading] = useState(true);
 
   useEffect(() => {
     const fetchPokemon = async () => {
       const res = await fetchApi(url);
       setpokemons(res.results);
+      setIsloading(false);
       setprevurl(res.previous);
       setnexturl(res.next);
     };
@@ -87,6 +89,7 @@ function App() {
             placeholder="Search Pokemon"
           />
         </div>
+        {isloading && pokemons.length === 0 && <p>Loading....</p>}
         <div className="card-body">
           <Pokemon pokemon={displayUsers} Details={PokeDetails} open={open} />
         </div>
