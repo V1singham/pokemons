@@ -134,10 +134,7 @@ p{
   position: relative;
 }
 
-.pokemon p: hover{
-  background-color: #2b2eff;
 
-}
 @media (max-width:600px) {
   #inp{
     width: 80%;
