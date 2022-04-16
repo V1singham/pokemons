@@ -111,6 +111,16 @@
   font-size: 1.5rem;
 }
 
+@media (max-width:500px) {
+  #inp{
+    width: 80%;
+    height: 3rem;
+    text-align: center;
+    font-size: 1rem;
+
+  }  
+}
+
 .nav{
   display: flex;
   justify-content: center;
