@@ -133,6 +133,11 @@ p{
   margin-bottom: 0px;
   position: relative;
 }
+
+.pokemon p: hover{
+  background-color: #2b2eff;
+
+}
 @media (max-width:600px) {
   #inp{
     width: 80%;
@@ -143,7 +148,7 @@ p{
   } 
   
   #page{
-    width: 70%;
+    width: 100%;
     position: relative;
     margin: 30px 40px;
     display: flex;

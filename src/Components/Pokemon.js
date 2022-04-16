@@ -2,13 +2,15 @@ import React from 'react';
 
 function Pokemon({ pokemon, Details, open }) {
   return (
-    <div className="">
+    <div>
       {pokemon.map(({ name, url }) => (
-        <div onClick={open} className=" " key={name}>
-          <p className="list-group-item" onClick={() => Details(url)}>
-            {name}
-          </p>
-        </div>
+        <a>
+          <div onClick={open} className=" " key={name} className="pokemon">
+            <p className="list-group-item" onClick={() => Details(url)}>
+              {name}
+            </p>
+          </div>
+        </a>
       ))}
     </div>
   );
